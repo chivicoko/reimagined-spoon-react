@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+// import Input from "./components/Input";
+// import Select from "./components/Select";
+// import TextArea from "./components/TextArea";
+// import Button from "./components/Button";
+// import Feedback from "./components/Feedback";
+import BlogPostHeader from "./components/BlogPostHeader";
+import BlogPostSubheader from "./components/BlogPostSubheader";
+import Blogpost from "./components/Blogpost";
+import BlogCard from "./components/BlogCard";
+import BlogSideBar from "./components/BlogSideBar";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="mt-4 offset-1">
+      {/* <hr/> */}
+      {/* <Input/> */}
+      {/* <Select/> */}
+      {/* <TextArea/> */}
+      {/* <Button/> */}
+      {/* <Feedback/> */}
+      {/* <BlogPostHeader /> */}
+      {/* <BlogPostSubheader /> */}
+      {/* <BlogCard /> */}
+      {/* <BlogSideBar /> */}
+      <Blogpost />
+    </div>    
   );
 }
 
 export default App;
+
+
+
+// module.exports = {products, product_price};
