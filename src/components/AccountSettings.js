@@ -56,21 +56,17 @@ const AccountSettings = (props) => {
                     <p className="fw-bold mt-4 mb-3" style={{color: 'black'}}>Connect</p>
                     <div className="d-flex justify-content-between" style={{color: 'black'}}>
                         <span className="h6 mb-1">Your Discord Account</span>
-                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                            <button style={{backgroundColor: '#6782c2'}} type="button" class="btn btn-dark btn-sm">
-                                <img src={`${iconPath}discord2-removebg-preview.png`} alt="Pics" style={{width: '25px'}} />
-                            </button>
-                            <button style={{backgroundColor: '#6782c2'}} type="button" class="btn btn-dark btn-sm">Connect</button>
+                        <div class="btn btn-dark btn-sm" style={{backgroundColor: '#6782c2'}} >
+                            <img src={`${iconPath}discord2-removebg-preview.png`} alt="Pics" style={{width: '25px'}} /> &nbsp;
+                            Connect
                         </div>
                     </div>
                     <small style={{color: 'grey'}}>Its username will be shown at you profile</small>
                     <div className="d-flex justify-content-between mt-3" style={{color: 'black'}}>
                         <span className="h6 mb-1">Your GitHub Account</span>
-                        <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                            <button style={{backgroundColor: 'black'}} type="button" class="btn btn-dark btn-sm">
-                                <img src={`${iconPath}github2-removebg-preview.png`} alt="Pics" style={{width: '25px'}} />
-                            </button>
-                            <button style={{backgroundColor: 'black'}} type="button" class="btn btn-dark btn-sm">Connect</button>
+                        <div class="btn btn-dark btn-sm" style={{backgroundColor: 'black'}} >
+                            <img src={`${iconPath}github2-removebg-preview.png`} alt="Pics" style={{width: '25px'}} /> &nbsp;
+                            Connect
                         </div>
                     </div>
                     <small style={{color: 'grey'}}>Its username will be shown at you profile</small>
