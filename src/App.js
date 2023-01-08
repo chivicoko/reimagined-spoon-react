@@ -8,6 +8,8 @@ import BlogPostSubheader from "./components/BlogPostSubheader";
 import Blogpost from "./components/Blogpost";
 import BlogCard from "./components/BlogCard";
 import BlogSideBar from "./components/BlogSideBar";
+import NotificationSettings from "./components/NotificationSettings";
+import AccountSettings from "./components/AccountSettings";
 
 
 function App() {
@@ -23,7 +25,9 @@ function App() {
       {/* <BlogPostSubheader /> */}
       {/* <BlogCard /> */}
       {/* <BlogSideBar /> */}
-      <Blogpost />
+      {/* <NotificationSettings /> */}
+      <AccountSettings />
+      {/* <Blogpost /> */}
     </div>    
   );
 }
