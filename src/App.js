@@ -10,6 +10,7 @@ import BlogCard from "./components/BlogCard";
 import BlogSideBar from "./components/BlogSideBar";
 import NotificationSettings from "./components/NotificationSettings";
 import AccountSettings from "./components/AccountSettings";
+import Wallet from "./components/Wallet";
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
       {/* <BlogCard /> */}
       {/* <BlogSideBar /> */}
       {/* <NotificationSettings /> */}
-      <AccountSettings />
+      {/* <AccountSettings /> */}
+      <Wallet />
       {/* <Blogpost /> */}
     </div>    
   );
