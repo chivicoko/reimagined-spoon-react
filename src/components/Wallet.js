@@ -7,7 +7,6 @@ const Wallet = (props) => {
         <div className="row mx-0">
 
             <div className="col-7">
-
                 <div className="mb-4 mt-1 py-2 border-bottom border-2" style={{color: 'black'}}>
                     <span style={{color: ''}} className="me-4 mt-4 border-bottom py-2">Wallet</span>
                     <span style={{color: ''}} className="mx-4 mt-4">Account</span>
@@ -65,7 +64,6 @@ const Wallet = (props) => {
 
 
             <div className="col-4">
-
                 <div className="rounded mb-5 me-3 mt-1 d-flex justify-content-end" style={{backgroundColor: 'rgb(242, 242, 222)', width: '135px', marginLeft: '235px'}}>
                     <img className="mt-2" src={`${iconPath}person2-removebg-preview.png`} alt="Pics" style={{width: '25px', height: '25px'}} />
                     <div class="dropdown">
@@ -73,9 +71,9 @@ const Wallet = (props) => {
                             Jeff Tank
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <li><button class="dropdown-item" type="button">Action</button></li>
-                            <li><button class="dropdown-item" type="button">Another action</button></li>
-                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            <li><button class="dropdown-item" type="button">Settings</button></li>
+                            <hr/>
+                            <li><button class="dropdown-item" type="button">Logout</button></li>
                         </ul>
                     </div>
                 </div>
@@ -84,7 +82,7 @@ const Wallet = (props) => {
                     <p className="col">ADS</p>
                 </div>
 
-                <div className="border rounded p-2 fw-bold align-middle mt-4" style={{height: '350px'}}>
+                <div className="border mx-3 rounded p-2 fw-bold align-middle mt-4" style={{height: '350px'}}>
                     <p className="fw-bold" style={{color: 'black'}}>Recent Activity</p>
                     <hr/>
                     <div style={{color: ''}} className="row d-flex justify-content-between">
